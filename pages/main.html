@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Prep Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/about.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../assets/images/placement-logo.jpg" alt="Placement Prep Logo" class="logo">
+            <a href="main.html" class="logo-text"><span>Placement</span>Prep</a>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="get-started.html">Get Started</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <h1>Welcome to Placement Prep Assistant</h1>
+            <p>Your Guide to Successful Interviews and Career Growth</p>
+            <button onclick="navigate()">Start your preparation today! </button>
+            <script>
+                function navigate()
+                {
+                    window.location.href = 'get-started.html';
+                }
+            </script>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="mission-statement">
+                    <p><strong>Placement Prep Assistant</strong> is dedicated to empowering students and job seekers as they navigate the challenging path towards their dream careers. Our mission is to provide comprehensive support, equipping you with the tools, knowledge, and confidence needed to succeed in today's competitive job market.</p>
+                </div>
+                <div class="services">
+                    <h3>Our Services</h3>
+                    <div class="service-item" id="resources">
+                        <h4>1. Resources</h4>
+                        <p>We offer a vast array of resources tailored to various industries and job roles. From detailed guides and e-books to video tutorials and webinars, our materials are designed to help you understand the intricacies of job searching, resume building, and interview preparation.</p>
+                    </div>
+                    <div class="service-item" id="tips">
+                        <h4>2. Tips and Insights</h4>
+                        <p>Stay ahead of the curve with our regularly updated tips and insights. Our experts share the latest trends, effective strategies, and insider advice to give you a competitive edge. Whether it's mastering the art of networking or acing a technical interview, we've got you covered.</p>
+                    </div>
+                    <div class="service-item" id="guidance">
+                        <h4>3. Personalized Guidance</h4>
+                        <p>Understanding that each career journey is unique, we provide personalized guidance to address your specific needs. Our one-on-one coaching sessions, mock interviews, and resume reviews are tailored to highlight your strengths and improve your areas of development.</p>
+                    </div>
+                </div>
+                <div class="commitment">
+                    <h3 class="commitment-h3">Our Commitment</h3>
+                    <p class="commitment-p">At Placement Prep Assistant, we believe in the potential of every individual. Our commitment is to support you at every step of your career journey, from exploring career options to landing your dream job. We strive to create a supportive and inclusive environment where you can thrive and achieve your goals.</p>
+                </div>
+                <div class="join-us">
+                    <h3 class="join-us-h3">Join Us</h3>
+                    <p class="join-us-p">Join the Placement Prep Assistant community and take the first step towards a brighter future. Together, we can unlock your potential and turn your career aspirations into reality.</p>
+                    <button onclick="navigate()">Get Started</button>
+                    <script>
+                        function navigate()
+                        {
+                            window.location.href = 'get-started.html';
+                        }
+                    </script>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PlacementPrep. All rights reserved.</p>
+    </footer>
+    <script type="module" src="config.js"></script>
+    <script src="../assets/js/home.js"></script>
+</body>
+</html>

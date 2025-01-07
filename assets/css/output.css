@@ -1,0 +1,83 @@
+/* General Styles for Output Section */
+.output-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Image Container Styles */
+.output-img-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.output-img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Title Styles */
+#output-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+    text-align: center;
+}
+
+/* Star Rating Styles */
+#output-stars {
+    font-size: 1.5rem;
+    color: #FFD700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Output Text Styles */
+#output-text {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+}
+
+/* Loading Styles */
+.loading {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Error Message Styles */
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .output-container {
+        padding: 1rem;
+    }
+
+    #output-title {
+        font-size: 1.5rem;
+    }
+
+    #output-stars {
+        font-size: 1.2rem;
+    }
+
+    #output-text {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,105 @@
+.about-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #8E7F6F;
+    margin: 1rem auto;
+}
+
+.about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mission-statement {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.services, .commitment, .join-us {
+    margin-bottom: 3rem;
+}
+
+.services h3, .commitment-h3, .join-us-h3 {
+    font-size: 1.8rem;
+    color: #8E7F6F;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.service-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-item h4 {
+    color: #5E5E5E;
+    margin-bottom: 1rem;
+}
+
+.commitment-p, .join-us-p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.services h3::after, .commitment-h3::after, .join-us-h3::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #D2B48C;
+    transition: width 0.3s ease;
+}
+
+.services h3:hover::after, .commitment-h3:hover::after, .join-us-h3:hover::after {
+    width: 100%;
+}
+
+.section-title, .mission-statement, .services h3, .service-item, .commitment-h3, .commitment-p, .join-us-h3, .join-us-p, .cta-button {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-fade-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-fade-left {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.animate-fade-right {
+    opacity: 1;
+    transform: translateX(0);
+}

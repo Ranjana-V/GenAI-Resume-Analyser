@@ -1,0 +1,83 @@
+/* Resume Evaluation Container Styles */
+.resume-evaluation {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Section Header Styles */
+.resume-evaluation h2 {
+    font-size: 1.6em;
+    color: #007bff;
+    margin-bottom: 15px;
+    font-weight: 700;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Section Title Styles */
+.resume-evaluation h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin: 15px 0 10px;
+    font-weight: 600;
+}
+
+/* Strengths and Weaknesses Styles */
+.resume-evaluation .strengths,
+.resume-evaluation .weaknesses,
+.resume-evaluation .suggestions {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Strengths List Styles */
+.resume-evaluation .strengths ul,
+.resume-evaluation .weaknesses ul,
+.resume-evaluation .suggestions ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+/* Suggestion Details Styles */
+.resume-evaluation .suggestions ol {
+    list-style: decimal;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+/* Item Styles */
+.resume-evaluation ul li,
+.resume-evaluation ol li {
+    margin-bottom: 10px;
+}
+
+/* Highlighted Text Styles */
+.resume-evaluation .highlight {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .resume-evaluation {
+        padding: 15px;
+    }
+
+    .resume-evaluation h2 {
+        font-size: 1.4em;
+    }
+
+    .resume-evaluation h3 {
+        font-size: 1.2em;
+    }
+}

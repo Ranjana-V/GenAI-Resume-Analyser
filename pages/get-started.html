@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started - Placement Prep Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/get-started.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/output.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/resume-evaluation.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../assets/images/placement-logo.jpg" alt="Placement Prep Logo" class="logo">
+            <a href="main.html" class="logo-text"><span>Placement</span>Prep</a>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="get-started.html">Get Started</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Setup Section -->
+        <section id="setup-container">
+            <div class="setup-inner">
+                <div class="image-carousel">
+                    <img src="../assets/images/prep.jpg" alt="Preparation Image" class="active">
+                    <img src="../assets/images/interview.jpg" alt="Interview Image">
+                    <img src="../assets/images/resume.jpg" alt="Resume Writing">
+                    <img src="../assets/images/networking.jpeg" alt="Networking">
+                </div>
+                <div class="carousel-controls">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+                <div class="speech-bubble-ai" id="speech-bubble-ai">
+                    <p id="ai-prompt-text">Enter your preferred Job role, goal CTC per annum and your goal company</p>
+                </div>
+            </div>
+            <div class="setup-inner setup-input-container" id="setup-input-container">
+                <textarea id="setup-textarea" placeholder="e.g., Product Manager, 20 LPA, Google"></textarea>
+                <input type="file" id="upload-image" class="upload-btn" aria-label="Upload Image">
+
+                <button id="analyze-btn"> Analyze Image</button>
+                <div id="output"></div>
+                <button class="send-btn" id="send-btn" aria-label="send">Get interview tips
+                </button>
+            </div>
+        </section>
+
+        <!-- Output Section -->
+        <section class="output-container" id="output-container" style="display: none;">
+            <div id="output-img-container" class="output-img-container"></div>
+            <h1 id="output-title"></h1>
+            <h2 id="output-stars"></h2>
+            <p id="output-text"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PlacementPrep. All rights reserved.</p>
+    </footer>
+    <!-- <script type="module" src="config.js"></script> -->
+    <script type="module" src="../assets/js/index.js"></script>
+</body>
+</html>
