@@ -1,7 +1,7 @@
 # Placement Preparation Web Application
 
 This project is a **placement preparation web application** designed to help users evaluate their resumes and improve their chances of landing their dream job. The application uses **OCR** (Optical Character Recognition) and **Gemini APIs** for analyzing resumes and generating personalized suggestions.
-![Screenshot (10)](https://github.com/user-attachments/assets/4a6cbf62-a425-4bda-817f-50838693b648)
+
 
 ## Features
 
