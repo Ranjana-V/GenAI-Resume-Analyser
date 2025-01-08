@@ -18,7 +18,11 @@ This project is a **placement preparation web application** designed to help use
 
 - **Interview Tips**:
   - Generates concise interview tips tailored to the provided input.
-![Screenshot (12)](https://github.com/user-attachments/assets/70e22136-dd08-413d-b8b0-4a39c1677a22)
+
+
+https://github.com/user-attachments/assets/7b300faa-8982-44ed-a142-778059654ebd
+
+
 
 ## Setup Instructions
 
