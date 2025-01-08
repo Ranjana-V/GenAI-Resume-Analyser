@@ -8,7 +8,7 @@ This project is a **placement preparation web application** designed to help use
 - **Resume Analysis**: 
   - Upload a picture or PDF of your resume.
   - The application extracts text using the **OCR API**.
-  - The extracted text is analyzed using the **Gemini API** to give a personalized feedback.
+  - The extracted text is analyzed using the Google **Gemini API** to give a personalized feedback.
 
 - **Personalized Feedback**:
   - Enter your **preferred job role**, **goal CTC**, and **goal company**.
